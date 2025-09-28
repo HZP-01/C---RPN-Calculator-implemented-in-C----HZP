@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPN计算器使用说明</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; max-width: 800px; }
+        h1 { color: #333; border-bottom: 2px solid #333; padding-bottom: 10px; }
+        h2 { color: #555; margin-top: 30px; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; }
+        pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>RPN计算器使用说明</h1>
+    
+    <h2>项目简介</h2>
+    <p>C++实现的逆波兰表示法计算器，支持四则运算和数学功能。</p>
+    
+    <h2>安装编译</h2>
+    <pre><code>cd ~/Work/rpn_calc
+make</code></pre>
+    
+    <h2>使用方法</h2>
+    <pre><code>./rpn_calc</code></pre>
+    
+    <h2>操作说明</h2>
+    <ul>
+        <li>+ - * / : 四则运算</li>
+        <li>clear : 清空栈</li>
+        <li>stack : 显示栈内容</li>
+        <li>fib n : 斐波那契数列</li>
+        <li>pascal n : 杨辉三角</li>
+    </ul>
+    
+    <h2>使用示例</h2>
+    <pre><code>> 5 5 +
+结果: 10
+
+> 1 2 + 3 + 7 7 * +
+结果: 55
+
+> 10 fib
+结果: 55
+
+> 5 pascal
+结果: 32</code></pre>
+    
+    <h2>错误处理</h2>
+    <pre><code>> 5 0 /
+错误: 除零错误
+
+> +
+错误: 操作符 '+' 需要两个操作数</code></pre>
+    
+    <p>项目地址: https://HZP-01.github.io/rpn-calculator/</p>
+    <p>学生: HZP-01 | 日期: 2025年9月</p>
+</body>
+</html>

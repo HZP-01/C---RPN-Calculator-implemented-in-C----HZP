@@ -1,0 +1,12 @@
+title: "RPN Calculator 使用说明书"
+description: "功能丰富的逆波兰表示法计算器使用手册"
+theme: jekyll-theme-primer
+baseurl: "/C---RPN-Calculator-implemented-in-C---HZP"
+url: "https://hzp-01.github.io"
+
+# 构建设置
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-github-metadata
